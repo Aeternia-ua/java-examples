@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"name":"Freddy Cruger",	
+		"position":"hr manager",
+		"salary": 80,
+	},
+	{
+		"id": 2,
+		"name":"Max Gluteus",
+		"position":"executive",
+		"salary":100
+	},
+	{
+		"id": 3,
+		"name":"Andrea Gibson",
+		"position":"poet",
+		"salary":25
+	}
+	{
+		"id": 4,
+		"name":"Ozzy Osborne",
+		"position":"executive",
+		"salary":60
+	}
+]
