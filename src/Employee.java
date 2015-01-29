@@ -8,6 +8,7 @@ import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Employee {
@@ -15,6 +16,9 @@ public class Employee {
 	public static void main(String[] args) throws FileNotFoundException, IOException, ParseException {
 		JSONParser parser = new JSONParser();
 		ObjectMapper mapper = new ObjectMapper();
+		
+		mapper.configure(DeserializationFeature.USE_BIG_DECIMAL_FOR_FLOATS, true);
+		mapper.configure(DeserializationFeature.USE_BIG_INTEGER_FOR_INTS, true);
 		
 		String json = ((JSONArray) parser.parse(new FileReader(System.getProperty("user.dir") + "\\src\\" + "employees.json"))).toJSONString();
 		

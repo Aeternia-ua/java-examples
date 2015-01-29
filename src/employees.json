@@ -3,13 +3,13 @@
 		"id": 1,
 		"name":"Freddy Cruger",	
 		"position":"hr manager",
-		"salary": 80,
+		"salary": 80.5
 	},
 	{
 		"id": 2,
 		"name":"Max Gluteus",
 		"position":"executive",
-		"salary":100
+		"salary": 100.25
 	},
 	{
 		"id": 3,

@@ -7,7 +7,7 @@ public class EmployeeBean implements Comparable<EmployeeBean> {
 	private long id;
 	private String name;
 	private String position;
-	private long salary;
+	private Double salary;
 	
 	public EmployeeBean() {
 		
@@ -25,7 +25,7 @@ public class EmployeeBean implements Comparable<EmployeeBean> {
 		return position;
 	}
 	
-	public long getSalary() {
+	public Double getSalary() {
 		return salary;
 	}
 	
@@ -41,7 +41,7 @@ public class EmployeeBean implements Comparable<EmployeeBean> {
 		this.position = position;
 	}
 	
-	public void setSalary(long salary) {
+	public void setSalary(Double salary) {
 		this.salary = salary;
 	}
 	
